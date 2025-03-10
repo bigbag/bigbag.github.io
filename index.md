@@ -39,9 +39,9 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 
 ## Open Source Contributions
 
-- [starlette-request-id](https://github.com/bigbag/starlette-request-id): Helper for Starlette to add request IDs in logs, 20,000 downloads/month.
-- [request-id-helper](https://github.com/bigbag/request-id-helper): Enhances logging with request IDs, 1,500 downloads/month.
-- [secrets-storage](https://github.com/bigbag/secrets-storage): Fetches secrets from various storage solutions, over 1,500 downloads/month.
+- [starlette-request-id](https://github.com/bigbag/starlette-request-id): Helper for Starlette to add request IDs in logs, [![downloads](https://img.shields.io/pypi/dm/starlette-request-id.svg)](https://pypistats.org/packages/starlette-request-id).
+- [request-id-helper](https://github.com/bigbag/request-id-helper): Enhances logging with request IDs, [![downloads](https://img.shields.io/pypi/dm/request-id-helper.svg)](https://pypistats.org/packages/request-id-helper).
+- [secrets-storage](https://github.com/bigbag/secrets-storage): Fetches secrets from various storage solutions.
 - [sqlalchemy-state-machine](https://github.com/bigbag/sqlalchemy-state-machine): Adds transitions functionality in SQLAlchemy.
 - [starlette-i18n](https://github.com/bigbag/starlette-i18n): Localization helper for Starlette.
 
