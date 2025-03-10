@@ -56,10 +56,14 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 
 ## Certifications
 
+### Scrum.org
+- [**Professional Scrum Developer™ I (PSD I)**](https://www.credly.com/badges/f3c7117f-ac89-4160-919f-995082f365f5)
+
 ### The Linux Foundation
 - [**CKA: Certified Kubernetes Administrator**](https://www.credly.com/badges/24122208-e39b-4052-80fd-19f49ed1176b/public_url)
 
 ### Coursera Specializations
+- [**Generative AI for Software Development**](https://www.coursera.org/account/accomplishments/professional-cert/BSV952W3S4QC)
 - [**Algebra: Elementary to Advanced**](https://coursera.org/verify/specialization/QDWV3BG7QAWM)
 - [**Data Structures and Algorithms**](https://coursera.org/verify/specialization/8NKLJFF5QKZW)
 - [**Introduction to Scripting in Python**](https://coursera.org/verify/specialization/SGW7JYL2UK8B)
