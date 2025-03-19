@@ -64,6 +64,7 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 
 ### Coursera Specializations
 - [**Generative AI for Software Development**](https://www.coursera.org/account/accomplishments/professional-cert/BSV952W3S4QC)
+- [**Agentic AI and AI Agents for Leaders**](https://www.coursera.org/account/accomplishments/specialization/G84HKWXVXANF)
 - [**Algebra: Elementary to Advanced**](https://coursera.org/verify/specialization/QDWV3BG7QAWM)
 - [**Data Structures and Algorithms**](https://coursera.org/verify/specialization/8NKLJFF5QKZW)
 - [**Introduction to Scripting in Python**](https://coursera.org/verify/specialization/SGW7JYL2UK8B)
