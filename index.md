@@ -70,6 +70,7 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 - [**Introduction to Scripting in Python**](https://coursera.org/verify/specialization/SGW7JYL2UK8B)
 - [**Python 3 Programming**](https://coursera.org/verify/specialization/59EV37F9US56)
 - [**Self-Driving Cars** ](https://coursera.org/verify/specialization/EDTCKBT5H78J)
+- [**Rocket Science 101** ](https://www.coursera.org/account/accomplishments/specialization/E7D87UJMA0CC)
 
 ### Udacity
 - [**Machine Learning Engineer Nanodegree**](https://github.com/bigbag/bigbag.github.io/blob/main/certifications/udacity_ml.pdf)
