@@ -13,15 +13,35 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 ### Backend Engineer, SplitMetrics
 *July 2022 – Present*
 
-- Developed scalable, high-load systems using Python, handling up to 5k requests per second and managing big data (>200 million records/day).
-- Created Apple keywords suggestion service and machine learning systems for ad bid optimization.
+- Developed a high-performance keyword analysis service using BERT and OpenAI, processing 5k+ requests/second for Apple Search Ads optimization
+- Created a scalable Apple Search Ads suggestion service with gRPC, Celery, and PostgreSQL, featuring competitor analysis and intelligent keyword recommendations
+- Designed modular, adapter-based architectures for maintainable and extensible systems
+- Managed and processed big data analytics pipelines (>200 million records/day)
+
+**Technologies & Tools:**
+- **Languages & Frameworks:** Python, FastAPI, gRPC
+- **ML/AI:** PyTorch, Sentence-Transformers, scikit-learn, LightGBM, BERT, MLflow
+- **Data Processing:** Snowflake, PostgreSQL (with FDW), BigQuery, Pandas, Polars, PyArrow
+- **Infrastructure:** Docker, Kubernetes, Jenkins CI/CD
+- **Monitoring:** Prometheus, custom analytics dashboards
 
 ### Senior Software Engineer, Exness
 *August 2016 – April 2022*
 
-- Developed distributed microservices billing system and integrated crypto payment solutions.
-- Enhanced system security through a secrets management service.
-- Managed databases with SQL optimizations and architectural improvements.
+- Architected and developed an enterprise-scale payment processing platform supporting multiple payment providers and cryptocurrencies
+- Designed microservices-based billing system with support for traditional payment methods and crypto (BTC, USDT-OMNI)
+- Implemented secure authentication mechanisms and regulatory compliance features
+- Created standardized driver interfaces for seamless payment provider integration
+- Enhanced system security through secrets management service implementation
+- Optimized database performance through SQL query optimization and architectural improvements
+
+**Technologies & Tools:**
+- **Languages & Frameworks:** Python, Go, Thrift
+- **Infrastructure:** Docker, Kubernetes, Helm
+- **Databases:** Distributed database systems, SQL optimization
+- **Security:** PCI DSS compliance, authentication/authorization systems
+- **Blockchain:** Bitcoin Core integration, cryptocurrency payment processing
+- **Architecture:** Microservices, API Gateway, service mesh
 
 ### Software Engineer, Game Stream Joint LLC
 *August 2014 – August 2016*
@@ -29,27 +49,39 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 - Built a microservice-based coupon system and led the premium shop redesign, increasing user engagement and sales.
 - Developed versatile APIs for seamless external platform integration.
 
+**Technologies & Tools:**
+- **Languages & Frameworks:** Python, Django
+- **Databases:** PostgreSQL, Redis
+- **Infrastructure:** Docker
+- **Architecture:** Microservices
+
 ### Software Developer, Mobispot Social Systems
 *October 2012 – August 2014*
 
 - Led development of billing systems for payment terminals and vending machines.
 - Created an online shop for NFC tags and integrated social network features.
 
+**Technologies & Tools:**
+- **Languages & Frameworks:** Python, Flask
+- **Databases:** MySQL, Redis
+- **Infrastructure:** Docker
+
 ---
 
 ## Open Source Contributions
 
-- [starlette-request-id](https://github.com/bigbag/starlette-request-id): Helper for Starlette to add request IDs in logs, [![downloads](https://img.shields.io/pypi/dm/starlette-request-id.svg)](https://pypistats.org/packages/starlette-request-id).
-- [request-id-helper](https://github.com/bigbag/request-id-helper): Enhances logging with request IDs, [![downloads](https://img.shields.io/pypi/dm/request-id-helper.svg)](https://pypistats.org/packages/request-id-helper).
-- [secrets-storage](https://github.com/bigbag/secrets-storage): Fetches secrets from various storage solutions.
-- [sqlalchemy-state-machine](https://github.com/bigbag/sqlalchemy-state-machine): Adds transitions functionality in SQLAlchemy.
-- [starlette-i18n](https://github.com/bigbag/starlette-i18n): Localization helper for Starlette.
+- [starlette-request-id](https://github.com/bigbag/starlette-request-id): High-performance middleware for request tracing in Starlette applications, enabling distributed system observability with automatic request ID injection in logs. [![downloads](https://img.shields.io/pypi/dm/starlette-request-id.svg)](https://pypistats.org/packages/starlette-request-id).
+- [request-id-helper](https://github.com/bigbag/request-id-helper): Thread-safe request ID tracking system for Python applications, featuring automatic log injection and cross-service tracing capabilities. [![downloads](https://img.shields.io/pypi/dm/request-id-helper.svg)](https://pypistats.org/packages/request-id-helper).
+- [hybrid-rsa-aes](https://github.com/bigbag/hybrid-rsa-aes): High-performance hybrid encryption library combining RSA and AES algorithms, providing an intuitive API for secure data encryption in Python applications.
+- [sqlalchemy-state-machine](https://github.com/bigbag/sqlalchemy-state-machine): SQLAlchemy extension for declarative state machines, reducing boilerplate by 70% and enforcing strict state transition rules at the database level.
+- [starlette-i18n](https://github.com/bigbag/starlette-i18n): Comprehensive internationalization middleware for Starlette, featuring automatic language detection and persistent language preferences.
+- [cv_matcher](https://github.com/bigbag/cv_matcher): 
 
 ---
 
 ## Education
 
-- **Master of Science in Information Technology (MSIT)**, University of the People
+- **Master of Science in Information Technology (MSIT)**, University of the People (3.97 GPA)
 - **Master's Degree in Theoretical Physics**, Kemerovo State University
 
 ---
@@ -100,10 +132,3 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 - Authored popular open-source packages with significant monthly downloads.
 
 ---
-
-<!-- ## Contact
-
-For more information or collaboration opportunities, feel free to connect via:
-
-- **LinkedIn**: [Pavel Liashkov](https://www.linkedin.com/in/liashkov/)
-- **GitHub**: [bigbag](https://github.com/bigbag) -->
