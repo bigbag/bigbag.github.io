@@ -75,7 +75,7 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 - [hybrid-rsa-aes](https://github.com/bigbag/hybrid-rsa-aes): High-performance hybrid encryption library combining RSA and AES algorithms, providing an intuitive API for secure data encryption in Python applications.
 - [sqlalchemy-state-machine](https://github.com/bigbag/sqlalchemy-state-machine): SQLAlchemy extension for declarative state machines, reducing boilerplate by 70% and enforcing strict state transition rules at the database level.
 - [starlette-i18n](https://github.com/bigbag/starlette-i18n): Comprehensive internationalization middleware for Starlette, featuring automatic language detection and persistent language preferences.
-- [cv_matcher](https://github.com/bigbag/cv_matcher): 
+- [cv_matcher](https://github.com/bigbag/cv_matcher): FastAPI-based resume matching system that uses AI (OpenAI, Anthropic) to analyze CVs and job descriptions, providing automated scoring for technical skills, experience, and qualifications.
 
 ---
 
