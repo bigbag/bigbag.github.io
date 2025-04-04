@@ -95,6 +95,7 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 - [**CKA: Certified Kubernetes Administrator**](https://www.credly.com/badges/24122208-e39b-4052-80fd-19f49ed1176b/public_url)
 
 ### Coursera Specializations
+- [**Project Management and Planning**](https://www.coursera.org/account/accomplishments/specialization/OTHQOGV48PRK)
 - [**Generative AI for Software Development**](https://www.coursera.org/account/accomplishments/professional-cert/BSV952W3S4QC)
 - [**Agentic AI and AI Agents for Leaders**](https://www.coursera.org/account/accomplishments/specialization/G84HKWXVXANF)
 - [**Algebra: Elementary to Advanced**](https://coursera.org/verify/specialization/QDWV3BG7QAWM)
