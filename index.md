@@ -28,12 +28,11 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 ### Senior Software Engineer, Exness
 *August 2016 – April 2022*
 
-- Architected and developed an enterprise-scale payment processing platform supporting multiple payment providers and cryptocurrencies
-- Designed microservices-based billing system with support for traditional payment methods and crypto (BTC, USDT-OMNI)
+- Designed microservices-based billing system with support for traditional payment methods and crypto (BTC, USDT-OMNI), resulting in a significant increase in deposit volumes
+- Created standardized driver interfaces for seamless payment provider integration. Successfully integrated over 50 payment systems through this interfaces
 - Implemented secure authentication mechanisms and regulatory compliance features
-- Created standardized driver interfaces for seamless payment provider integration
-- Enhanced system security through secrets management service implementation
 - Optimized database performance through SQL query optimization and architectural improvements
+- Participated in 400+ technical interviews as an interviewer, contributing to the successful hiring of 20+ top-tier developers
 
 **Technologies & Tools:**
 - **Languages & Frameworks:** Python, Go, Thrift
