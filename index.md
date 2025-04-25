@@ -111,6 +111,9 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 ### Yandex
 - [**Go Developer Professional Training Course** ](https://github.com/bigbag/bigbag.github.io/blob/main/certifications/yandex_golang.pdf)
 
+### Hugging Face AI Agents Course (2025)
+- [**AI Agents Course Certificate**](https://github.com/bigbag/bigbag.github.io/blob/main/certifications/hf_agents_course_2025.pdf)
+
 ### Oxford Machine Learning Summer School
 - [**OxML 2024**: Attended advanced lectures on ML theory and its applications in Health & Bio, and Representation Learning & Generative AI](https://github.com/bigbag/bigbag.github.io/blob/main/certifications/oxml_2024.pdf)
 
