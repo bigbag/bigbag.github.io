@@ -87,10 +87,9 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 
 ## Certifications
 
-### Scrum.org
+### General
 - [**Professional Scrum Developer™ I (PSD I)**](https://www.credly.com/badges/f3c7117f-ac89-4160-919f-995082f365f5)
-
-### The Linux Foundation
+- [**Astronomer Certification for Apache Airflow 2 Fundamentals**](https://www.credly.com/badges/9148e9ff-f4a8-4028-a3d3-a34c0acdb77a)
 - [**CKA: Certified Kubernetes Administrator**](https://www.credly.com/badges/24122208-e39b-4052-80fd-19f49ed1176b/public_url)
 
 ### Coursera Specializations
