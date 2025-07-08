@@ -4,6 +4,7 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 
 - [LinkedIn](https://www.linkedin.com/in/liashkov/)
 - [GitHub](https://github.com/bigbag)
+- [Credly](https://www.credly.com/users/pavel-liashkov/badges#credly)
 - [LeetCode](https://leetcode.com/u/bigbag/)
 
 ---
