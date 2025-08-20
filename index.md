@@ -70,8 +70,8 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 
 ## Open Source Contributions
 
-- [starlette-request-id](https://github.com/bigbag/starlette-request-id): High-performance middleware for request tracing in Starlette applications, enabling distributed system observability with automatic request ID injection in logs. [![downloads](https://img.shields.io/pypi/dm/starlette-request-id.svg)](https://pypistats.org/packages/starlette-request-id).
-- [request-id-helper](https://github.com/bigbag/request-id-helper): Thread-safe request ID tracking system for Python applications, featuring automatic log injection and cross-service tracing capabilities. [![downloads](https://img.shields.io/pypi/dm/request-id-helper.svg)](https://pypistats.org/packages/request-id-helper).
+- [starlette-request-id](https://github.com/bigbag/starlette-request-id): High-performance middleware for request tracing in Starlette applications, enabling distributed system observability with automatic request ID injection in logs. [90K downloads for last month](https://clickpy.clickhouse.com/dashboard/starlette-request-id).
+- [request-id-helper](https://github.com/bigbag/request-id-helper): Thread-safe request ID tracking system for Python applications, featuring automatic log injection and cross-service tracing capabilities. [80K downloads for last month](https://clickpy.clickhouse.com/dashboard/request-id-helper).
 - [hybrid-rsa-aes](https://github.com/bigbag/hybrid-rsa-aes): High-performance hybrid encryption library combining RSA and AES algorithms, providing an intuitive API for secure data encryption in Python applications.
 - [sqlalchemy-state-machine](https://github.com/bigbag/sqlalchemy-state-machine): SQLAlchemy extension for declarative state machines, reducing boilerplate by 70% and enforcing strict state transition rules at the database level.
 - [starlette-i18n](https://github.com/bigbag/starlette-i18n): Comprehensive internationalization middleware for Starlette, featuring automatic language detection and persistent language preferences.
