@@ -14,17 +14,19 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 ### Backend Engineer, SplitMetrics
 *July 2022 – Present*
 
-- Developed a high-performance keyword analysis service using BERT and OpenAI, processing 5k+ requests/second for Apple Search Ads optimization
-- Created a scalable Apple Search Ads suggestion service with gRPC, Celery, and PostgreSQL, featuring competitor analysis and intelligent keyword recommendations
-- Designed modular, adapter-based architectures for maintainable and extensible systems
-- Managed and processed big data analytics pipelines (>200 million records/day)
+- Developed conversational AI market research LLM agent using Slack Bolt SDK and pydantic_ai, providing automated competitive intelligence and app store analytics through natural language processing
+- Engineered AI-powered keyword analysis service with BERT embeddings and ONNX optimization, delivering sub-second response times at 5k+ requests/second for App Store Optimization
+- Built enterprise-grade keyword suggestions microservice using gRPC, Celery, and PostgreSQL, integrating OpenAI GPT models and Apple Search Ads API for intelligent keyword recommendations and competitor analysis
+- Designed modular, adapter-based architectures with clean separation of concerns, implementing sophisticated rate limiting, proxy rotation, and real-time monitoring
+- Built complete AWS cloud infrastructure and deployment pipelines, managing containerized services across multiple environments with automated CI/CD workflows
+- Managed and processed big data analytics pipelines (>200 million records/day) with 99.9% uptime
 
 **Technologies & Tools:**
-- **Languages & Frameworks:** Python, FastAPI, gRPC
-- **ML/AI:** PyTorch, Sentence-Transformers, scikit-learn, LightGBM, BERT, MLflow
-- **Data Processing:** Snowflake, PostgreSQL (with FDW), BigQuery, Pandas, Polars, PyArrow
-- **Infrastructure:** Docker, Kubernetes, Jenkins CI/CD
-- **Monitoring:** Prometheus, custom analytics dashboards
+- **Languages & Frameworks:** Python, FastAPI, gRPC, Slack Bolt SDK
+- **ML/AI:** PyTorch, Sentence-Transformers, BERT, ONNX, OpenAI GPT, Pydantic AI
+- **Data Processing:** Snowflake, PostgreSQL, BigQuery, Pandas, Polars, PyArrow, SQLAlchemy, Redis
+- **Cloud & Infrastructure:** AWS (ECS, EC2, RDS, S3, CloudWatch, IAM), Kubernetes, Docker, Jenkins CI/CD, Poetry, Prometheus monitoring
+- **External APIs:** Apple Search Ads, Google Cloud Platform, Google Sheets API
 
 ### Senior Software Engineer, Exness
 *August 2016 – April 2022*
