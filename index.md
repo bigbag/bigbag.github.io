@@ -72,12 +72,12 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 
 ## Open Source Contributions
 
-- [starlette-request-id](https://github.com/bigbag/starlette-request-id): High-performance middleware for request tracing in Starlette applications, enabling distributed system observability with automatic request ID injection in logs. [90K downloads for last month](https://clickpy.clickhouse.com/dashboard/starlette-request-id).
-- [request-id-helper](https://github.com/bigbag/request-id-helper): Thread-safe request ID tracking system for Python applications, featuring automatic log injection and cross-service tracing capabilities. [80K downloads for last month](https://clickpy.clickhouse.com/dashboard/request-id-helper).
-- [hybrid-rsa-aes](https://github.com/bigbag/hybrid-rsa-aes): High-performance hybrid encryption library combining RSA and AES algorithms, providing an intuitive API for secure data encryption in Python applications.
-- [sqlalchemy-state-machine](https://github.com/bigbag/sqlalchemy-state-machine): SQLAlchemy extension for declarative state machines, reducing boilerplate by 70% and enforcing strict state transition rules at the database level.
-- [starlette-i18n](https://github.com/bigbag/starlette-i18n): Comprehensive internationalization middleware for Starlette, featuring automatic language detection and persistent language preferences.
-- [cv_matcher](https://github.com/bigbag/cv_matcher): Python based resume matching system that uses AI (OpenAI, Anthropic) to analyze CVs and job descriptions, providing automated scoring for technical skills, experience, and qualifications.
+- [starlette-request-id](https://github.com/bigbag/starlette-request-id): High-performance ASGI middleware for request tracing in Starlette applications, enabling distributed system observability with automatic request ID generation, context propagation across async operations, and seamless integration with Python's logging framework for enhanced debugging and monitoring. [120K downloads for last month](https://clickpy.clickhouse.com/dashboard/starlette-request-id).
+- [request-id-helper](https://github.com/bigbag/request-id-helper): Thread-safe request ID tracking library for Python applications, providing decorator-based integration, custom log formatters, and automatic request ID injection for cross-service tracing in microservices architectures with comprehensive testing and type checking support. [100K downloads for last month](https://clickpy.clickhouse.com/dashboard/request-id-helper).
+- [starlette-i18n](https://github.com/bigbag/starlette-i18n): Internationalization middleware for Starlette applications, integrating gettext and Babel translation systems with automatic locale detection from HTTP headers, lazy translation loading, and customizable language preferences for building multi-language web applications.
+- [papyrix-reader](https://github.com/bigbag/papyrix-reader): Lightweight firmware fork for Xteink X4 e-paper reader built on ESP32-C3, featuring EPUB parsing with customizable fonts, WiFi book upload, exFAT support, and intelligent SD card caching.
+- [papyrix-flasher](https://github.com/bigbag/papyrix-flasher): Cross-platform Go utility for flashing firmware onto ESP32-C3 based e-paper readers, implementing ESP32 ROM bootloader protocol with SLIP framing, zlib compression for faster transfers, and automatic device detection across Windows, Linux, and macOS.
+- [xteink-epub-optimizer](https://github.com/bigbag/xteink-epub-optimizer): Python-based EPUB optimization tool for e-ink devices, providing CSS sanitization, image processing with grayscale conversion and contrast enhancement, font removal, and conversion to native XTC/XTCH formats for optimal performance on memory-constrained readers.
 
 ---
 
