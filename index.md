@@ -91,7 +91,7 @@ Backend Engineer with 12+ years building scalable, production-grade systems spec
 ### E-Paper Reader Ecosystem
 - [papyrix-reader](https://github.com/bigbag/papyrix-reader): Lightweight firmware fork for Xteink X4 e-paper reader built on ESP32-C3, featuring EPUB parsing with customizable fonts, WiFi book upload, exFAT support, and intelligent SD card caching to operate within ~380KB RAM constraints.
 - [papyrix-flasher](https://github.com/bigbag/papyrix-flasher): Cross-platform Go utility for flashing firmware onto ESP32-C3 based e-paper readers, implementing ESP32 ROM bootloader protocol with SLIP framing, zlib compression for faster transfers, and automatic device detection across Windows, Linux, and macOS.
-- [xteink-epub-optimizer](https://github.com/bigbag/xteink-epub-optimizer): Python-based EPUB optimization tool for e-ink devices, providing CSS sanitization, image processing with grayscale conversion and contrast enhancement, font removal, and conversion to native XTC/XTCH formats for optimal performance on memory-constrained readers.
+- [epub-to-xtc-converter](https://github.com/bigbag/epub-to-xtc-converter): Browser-based EPUB to XTC/XTCH converter for Xteink e-readers, featuring CREngine WASM for accurate rendering, batch processing, live page preview, customizable fonts and layouts across 42 languages, CSS optimization, image grayscale conversion, and Floyd-Steinberg dithering via Web Workers for optimal e-ink display quality.
 
 ### Additional Libraries
 - [hybrid-rsa-aes](https://github.com/bigbag/hybrid-rsa-aes): High-performance hybrid encryption library combining RSA and AES algorithms with secure key derivation (SHA256) and AES-256-CTR encryption, providing an intuitive API for secure data encryption in Python applications.
