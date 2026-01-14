@@ -1,6 +1,6 @@
 # Pavel Liashkov
 
-Backend Engineer | Python & Golang Expert | ML Enthusiast
+Backend Engineer | Python Expert | ML Enthusiast
 
 - [LinkedIn](https://www.linkedin.com/in/liashkov/)
 - [GitHub](https://github.com/bigbag)
@@ -11,7 +11,7 @@ Backend Engineer | Python & Golang Expert | ML Enthusiast
 
 ## About
 
-Backend Engineer with 12+ years building scalable, production-grade systems specializing in AI/ML integration, microservices architecture, and high-performance data pipelines. Expert in Python and Golang with deep experience in LLM agents, RAG systems, and real-time analytics processing 200M+ records/day. Active open-source contributor with 2.4M+ total downloads (220K+ monthly) across multiple PyPI packages. Passionate about AI agent architectures, distributed systems, and MLOps.
+Backend Engineer with 12+ years building scalable, production-grade systems specializing in AI/ML integration, microservices architecture, and high-performance data pipelines. Expert in Python with deep experience in LLM agents, RAG systems, and real-time analytics processing 200M+ records/day. Active open-source contributor with 2.4M+ total downloads (220K+ monthly) across multiple PyPI packages. Passionate about AI agent architectures, distributed systems, and MLOps.
 
 ---
 
@@ -20,13 +20,13 @@ Backend Engineer with 12+ years building scalable, production-grade systems spec
 ### Backend Engineer, SplitMetrics
 *July 2022 – Present*
 
+- Architected FastMCP server with 33 tools for App Store intelligence, integrating PostgreSQL with pgvector for semantic search and StarRocks OLAP for historical analytics, enabling real-time competitive analysis and market research capabilities
 - Developed conversational AI market research LLM agent using Slack Bolt SDK and pydantic_ai, providing automated competitive intelligence and app store analytics through natural language processing
+- Managed and processed big data analytics pipelines (>200 million records/day) with 99.9% uptime
 - Engineered AI-powered keyword analysis service with BERT embeddings and ONNX optimization, delivering sub-second response times at 5k+ requests/second for App Store Optimization
 - Built enterprise-grade keyword suggestions microservice using gRPC, Celery, and PostgreSQL, integrating OpenAI GPT models and Apple Search Ads API for intelligent keyword recommendations and competitor analysis
 - Designed modular, adapter-based architectures with clean separation of concerns, implementing sophisticated rate limiting, proxy rotation, and real-time monitoring
 - Built complete AWS cloud infrastructure and deployment pipelines, managing containerized services across multiple environments with automated CI/CD workflows
-- Managed and processed big data analytics pipelines (>200 million records/day) with 99.9% uptime
-- Architected FastMCP server with 33 tools for App Store intelligence, integrating PostgreSQL with pgvector for semantic search and StarRocks OLAP for historical analytics, enabling real-time competitive analysis and market research capabilities
 
 **Technologies & Tools:**
 - **Languages & Frameworks:** Python 3.12+, FastAPI, gRPC, Slack Bolt SDK, Protocol Buffers
@@ -42,14 +42,14 @@ Backend Engineer with 12+ years building scalable, production-grade systems spec
 ### Senior Software Engineer, Exness
 *August 2016 – April 2022*
 
-- Designed microservices-based billing system with support for traditional payment methods and crypto (BTC, USDT-OMNI), resulting in a significant increase in deposit volumes
 - Created standardized driver interfaces for seamless payment provider integration. Successfully integrated over 50 payment systems through this interfaces
+- Designed microservices-based billing system with support for traditional payment methods and crypto (BTC, USDT-OMNI), resulting in a significant increase in deposit volumes
+- Participated in 400+ technical interviews as an interviewer, contributing to the successful hiring of 20+ top-tier developers
 - Implemented secure authentication mechanisms and regulatory compliance features
 - Optimized database performance through SQL query optimization and architectural improvements
-- Participated in 400+ technical interviews as an interviewer, contributing to the successful hiring of 20+ top-tier developers
 
 **Technologies & Tools:**
-- **Languages & Frameworks:** Python, Go, Thrift
+- **Languages & Frameworks:** Python, Thrift
 - **Infrastructure:** Docker, Kubernetes, Helm
 - **Databases:** Distributed database systems, SQL optimization
 - **Security:** PCI DSS compliance, authentication/authorization systems
@@ -150,14 +150,14 @@ Architected FastMCP server with 33 tools for App Store competitive intelligence:
 - [**Data Structures and Algorithms**](https://coursera.org/verify/specialization/8NKLJFF5QKZW)
 - [**Introduction to Scripting in Python**](https://coursera.org/verify/specialization/SGW7JYL2UK8B)
 - [**Python 3 Programming**](https://coursera.org/verify/specialization/59EV37F9US56)
-- [**Self-Driving Cars** ](https://coursera.org/verify/specialization/EDTCKBT5H78J)
-- [**Rocket Science 101** ](https://www.coursera.org/account/accomplishments/specialization/E7D87UJMA0CC)
+- [**Self-Driving Cars**](https://coursera.org/verify/specialization/EDTCKBT5H78J)
+- [**Rocket Science 101**](https://www.coursera.org/account/accomplishments/specialization/E7D87UJMA0CC)
 
 ### Udacity
 - [**Machine Learning Engineer Nanodegree**](https://github.com/bigbag/bigbag.github.io/blob/main/certifications/udacity_ml.pdf)
 
 ### Yandex
-- [**Go Developer Professional Training Course** ](https://github.com/bigbag/bigbag.github.io/blob/main/certifications/yandex_golang.pdf)
+- [**Go Developer Professional Training Course**](https://github.com/bigbag/bigbag.github.io/blob/main/certifications/yandex_golang.pdf)
 
 ### Hugging Face AI Agents Course (2025)
 - [**AI Agents Course Certificate**](https://github.com/bigbag/bigbag.github.io/blob/main/certifications/hf_agents_course_2025.pdf)
