@@ -20,13 +20,13 @@ Backend Engineer with 12+ years building scalable, production-grade systems spec
 ### Backend Engineer, SplitMetrics
 *July 2022 – Present*
 
-- Architected FastMCP server with 33 tools for App Store intelligence, integrating PostgreSQL with pgvector for semantic search and StarRocks OLAP for historical analytics, enabling real-time competitive analysis and market research capabilities
-- Developed conversational AI market research LLM agent using Slack Bolt SDK and pydantic_ai, providing automated competitive intelligence and app store analytics through natural language processing
-- Managed and processed big data analytics pipelines (>200 million records/day) with 99.9% uptime
-- Engineered AI-powered keyword analysis service with BERT embeddings and ONNX optimization, delivering sub-second response times at 5k+ requests/second for App Store Optimization
-- Built enterprise-grade keyword suggestions microservice using gRPC, Celery, and PostgreSQL, integrating OpenAI GPT models and Apple Search Ads API for intelligent keyword recommendations and competitor analysis
-- Designed modular, adapter-based architectures with clean separation of concerns, implementing sophisticated rate limiting, proxy rotation, and real-time monitoring
-- Built complete AWS cloud infrastructure and deployment pipelines, managing containerized services across multiple environments with automated CI/CD workflows
+- Developed conversational AI market research LLM agent using PydanticAI with multi-agent orchestration (Planner → Domain Agents → Finalizer), 5 specialized domain agents and 11 scenario agents for automated competitive intelligence
+- Architected FastMCP server with 33 tools for App Store intelligence, integrating PostgreSQL with pgvector for semantic search and StarRocks OLAP for historical analytics
+- Designed RAG systems with DuckDB VSS and ONNX-optimized embeddings, achieving sub-100ms query latency with CPU-optimized INT8 quantization and hybrid search (HNSW + BM25)
+- Managed and processed big data analytics pipelines (>200 million records/day) with 99.9% uptime using Snowflake, StarRocks, and Apache Airflow
+- Engineered AI-powered keyword analysis service with BERT embeddings and ONNX optimization, delivering sub-second response times at 5k+ requests/second
+- Built enterprise-grade microservices using gRPC, FastAPI, and Celery, integrating OpenAI GPT, Claude API, and Apple Search Ads API
+- Built complete AWS infrastructure (ECS, RDS, S3, Bedrock) with Kubernetes orchestration and Jenkins CI/CD pipelines
 
 **Technologies & Tools:**
 - **Languages & Frameworks:** Python 3.12+, FastAPI, gRPC, Slack Bolt SDK, Protocol Buffers
@@ -42,11 +42,11 @@ Backend Engineer with 12+ years building scalable, production-grade systems spec
 ### Senior Software Engineer, Exness
 *August 2016 – April 2022*
 
-- Created standardized driver interfaces for seamless payment provider integration. Successfully integrated over 50 payment systems through this interfaces
-- Designed microservices-based billing system with support for traditional payment methods and crypto (BTC, USDT-OMNI), resulting in a significant increase in deposit volumes
-- Participated in 400+ technical interviews as an interviewer, contributing to the successful hiring of 20+ top-tier developers
-- Implemented secure authentication mechanisms and regulatory compliance features
-- Optimized database performance through SQL query optimization and architectural improvements
+- Created standardized driver interfaces enabling seamless integration of 50+ payment systems through unified API gateway
+- Designed microservices-based billing system with support for traditional payment methods and crypto (BTC, USDT-OMNI), significantly increasing deposit volumes
+- Participated in 400+ technical interviews, contributing to the successful hiring of 20+ top-tier developers
+- Implemented PCI DSS compliant authentication mechanisms and regulatory compliance features for global financial operations
+- Optimized database performance through SQL query tuning and architectural improvements using distributed database systems
 
 **Technologies & Tools:**
 - **Languages & Frameworks:** Python, Thrift
