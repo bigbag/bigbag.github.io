@@ -89,9 +89,9 @@ Backend Engineer with 12+ years building scalable, production-grade systems spec
 - [starlette-i18n](https://github.com/bigbag/starlette-i18n): Internationalization middleware for Starlette applications, integrating gettext and Babel translation systems with automatic locale detection from HTTP headers, lazy translation loading, and customizable language preferences for building multi-language web applications. ⭐ >10 stars
 
 ### E-Paper Reader Ecosystem
-- [papyrix-reader](https://github.com/bigbag/papyrix-reader): Lightweight firmware fork for Xteink X4 e-paper reader built on ESP32-C3, featuring EPUB parsing with customizable fonts, WiFi book upload, exFAT support, and intelligent SD card caching to operate within ~380KB RAM constraints.⭐ >50 stars
+- [papyrix-reader](https://github.com/bigbag/papyrix-reader): Lightweight firmware for Xteink X4 e-paper reader built on ESP32-C3, EPUB/FB2/MD/TXT support with customizable fonts, WiFi book upload.⭐ >150 stars
 - [papyrix-flasher](https://github.com/bigbag/papyrix-flasher): Cross-platform Go utility for flashing firmware onto ESP32-C3 based e-paper readers, implementing ESP32 ROM bootloader protocol with SLIP framing, zlib compression for faster transfers, and automatic device detection across Windows, Linux, and macOS.
-- [epub-to-xtc-converter](https://github.com/bigbag/epub-to-xtc-converter): Browser-based EPUB to XTC/XTCH converter for Xteink e-readers, featuring CREngine WASM for accurate rendering, batch processing, live page preview, customizable fonts and layouts across 42 languages, CSS optimization, image grayscale conversion, and Floyd-Steinberg dithering via Web Workers for optimal e-ink display quality.
+- [epub-to-xtc-converter](https://github.com/bigbag/epub-to-xtc-converter): Browser-based EPUB to XTC/XTCH converter for Xteink e-readers, featuring CREngine WASM for accurate rendering, batch processing, live page preview, customizable fonts and layouts across 42 languages, CSS optimization, image grayscale conversion, and Floyd-Steinberg dithering via Web Workers for optimal e-ink display quality. ⭐ >20 stars
 
 ---
 
