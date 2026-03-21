@@ -20,18 +20,20 @@ Backend Engineer with 12+ years building scalable, production-grade systems spec
 ### Backend Engineer, SplitMetrics
 *July 2022 – Present*
 
-- Developed conversational AI market research LLM agent using PydanticAI with multi-agent orchestration (Planner → Domain Agents → Finalizer), 5 specialized domain agents and 11 scenario agents for automated competitive intelligence
+- Developed conversational AI market research LLM agent using PydanticAI with multi-agent orchestration (Planner → Domain Agents → Finalizer), 5 specialized domain agents and 12 scenario agents for automated competitive intelligence
+- Built Deep Search async iterative research pipeline with 4 specialized agents (Planner, Evaluator, Summarizer, Synthesizer), Redis-backed state with pub/sub SSE streaming, convergence detection, and user-in-the-loop plan approval
 - Architected FastMCP server with 33 tools for App Store intelligence, integrating PostgreSQL with pgvector for semantic search and StarRocks OLAP for historical analytics
 - Designed RAG systems with DuckDB VSS and ONNX-optimized embeddings, achieving sub-100ms query latency with CPU-optimized INT8 quantization and hybrid search (HNSW + BM25)
 - Managed and processed big data analytics pipelines (>200 million records/day) with 99.9% uptime using Snowflake, StarRocks, and Apache Airflow
 - Engineered AI-powered keyword analysis service with BERT embeddings and ONNX optimization, delivering sub-second response times at 5k+ requests/second
+- Implemented AG-UI (Agent-User Interface) protocol with SSE streaming and run cancellation for real-time web client communication
 - Built enterprise-grade microservices using gRPC, FastAPI, and Celery, integrating OpenAI GPT, Claude API, and Apple Search Ads API
 - Built complete AWS infrastructure (ECS, RDS, S3, Bedrock) with Kubernetes orchestration and Jenkins CI/CD pipelines
 
 **Technologies & Tools:**
 - **Languages & Frameworks:** Python 3.12+, FastAPI, gRPC, Slack Bolt SDK, Protocol Buffers
 - **ML/AI:** PyTorch, Sentence-Transformers, BERT, KeyBERT, ONNX Runtime, OpenAI GPT, Pydantic AI, FastEmbed, RAG systems
-- **Multi-Agent Systems:** PydanticAI, MCP (Model Context Protocol), agent orchestration, workflow automation
+- **Multi-Agent Systems:** PydanticAI, MCP (Model Context Protocol), AG-UI protocol, OpenRouter, agent orchestration, workflow automation
 - **Data Processing:** Snowflake, PostgreSQL (with pgvector), StarRocks (OLAP), BigQuery, Pandas, Polars, PyArrow, SQLAlchemy, Redis
 - **Cloud & Infrastructure:** AWS (ECS, EC2, RDS, S3, CloudWatch, IAM, Bedrock Voyage AI), Kubernetes, Docker, Jenkins CI/CD, Poetry, Prometheus monitoring
 - **Workflow Orchestration:** Apache Airflow, Celery, RabbitMQ
@@ -42,19 +44,19 @@ Backend Engineer with 12+ years building scalable, production-grade systems spec
 ### Senior Software Engineer, Exness
 *August 2016 – April 2022*
 
-- Created standardized driver interfaces enabling seamless integration of 50+ payment systems through unified API gateway
-- Designed microservices-based billing system with support for traditional payment methods and crypto (BTC, USDT-OMNI), significantly increasing deposit volumes
+- Architected payment processing platform (22+ microservices) with JWS multi-signature validation, state machine invoice lifecycle, and Kafka event-driven reconciliation across 50+ payment providers
+- Integrated Bitcoin Core RPC and USDT-OMNI for crypto deposits/withdrawals with wallet management and blockchain confirmation tracking
 - Participated in 400+ technical interviews, contributing to the successful hiring of 20+ top-tier developers
-- Implemented PCI DSS compliant authentication mechanisms and regulatory compliance features for global financial operations
-- Optimized database performance through SQL query tuning and architectural improvements using distributed database systems
+- Implemented PCI DSS compliant authentication with HashiCorp Vault credential management and JWS cryptographic signing
+- Built KYC verification rules engine integrating 12+ MetaTrader servers with SumSub and multi-database connectivity
 
 **Technologies & Tools:**
-- **Languages & Frameworks:** Python, Thrift
-- **Infrastructure:** Docker, Kubernetes, Helm
-- **Databases:** Distributed database systems, SQL optimization
-- **Security:** PCI DSS compliance, authentication/authorization systems
-- **Blockchain:** Bitcoin Core integration, cryptocurrency payment processing
-- **Architecture:** Microservices, API Gateway, service mesh
+- **Languages & Frameworks:** Python, Django, FastAPI, Go, Thrift, gRPC
+- **Databases & Messaging:** PostgreSQL, ClickHouse, Redis, Kafka
+- **Infrastructure:** Docker, Kubernetes, Helm, ArgoCD, GitLab CI/CD
+- **Security:** PCI DSS, JWS/JWT (jwcrypto), HashiCorp Vault, Bitcoin Core RPC
+- **Observability:** Graylog, Sentry, Prometheus
+- **Architecture:** Microservices (22+ services), API Gateway, event-driven
 
 ### Software Engineer, Game Stream Joint LLC
 *August 2014 – August 2016*
@@ -89,9 +91,9 @@ Backend Engineer with 12+ years building scalable, production-grade systems spec
 - [starlette-i18n](https://github.com/bigbag/starlette-i18n): Internationalization middleware for Starlette applications, integrating gettext and Babel translation systems with automatic locale detection from HTTP headers, lazy translation loading, and customizable language preferences for building multi-language web applications. ⭐ >10 stars
 
 ### E-Paper Reader Ecosystem
-- [papyrix-reader](https://github.com/bigbag/papyrix-reader): Lightweight firmware for Xteink X4 e-paper reader built on ESP32-C3, EPUB/FB2/MD/TXT support with customizable fonts, WiFi book upload.⭐ >150 stars
+- [papyrix-reader](https://github.com/bigbag/papyrix-reader): Lightweight firmware for Xteink X4 e-paper reader built on ESP32-C3, EPUB/FB2/MD/TXT support with customizable fonts, WiFi book upload.⭐ 180 stars
 - [papyrix-flasher](https://github.com/bigbag/papyrix-flasher): Cross-platform Go utility for flashing firmware onto ESP32-C3 based e-paper readers, implementing ESP32 ROM bootloader protocol with SLIP framing, zlib compression for faster transfers, and automatic device detection across Windows, Linux, and macOS.
-- [epub-to-xtc-converter](https://github.com/bigbag/epub-to-xtc-converter): Browser-based EPUB to XTC/XTCH converter for Xteink e-readers, featuring CREngine WASM for accurate rendering, batch processing, live page preview, customizable fonts and layouts across 42 languages, CSS optimization, image grayscale conversion, and Floyd-Steinberg dithering via Web Workers for optimal e-ink display quality. ⭐ >20 stars
+- [epub-to-xtc-converter](https://github.com/bigbag/epub-to-xtc-converter): Browser-based EPUB to XTC/XTCH converter for Xteink e-readers, featuring CREngine WASM for accurate rendering, batch processing, live page preview, customizable fonts and layouts across 42 languages, CSS optimization, image grayscale conversion, and Floyd-Steinberg dithering via Web Workers for optimal e-ink display quality. ⭐ 40 stars
 
 ---
 
@@ -99,11 +101,12 @@ Backend Engineer with 12+ years building scalable, production-grade systems spec
 
 ### Multi-Agent AI Research System
 Built a production-grade multi-agent orchestration platform using PydanticAI for market research and competitive intelligence:
-- **Architecture**: Planner → Domain Agents → Finalizer workflow with 5 specialized domain agents and > 10 scenario agents
-- **Integration**: Slack Bolt SDK for conversational interface, FastMCP for external tool integration, SSE streaming for real-time responses
-- **AI/ML**: Multi-model strategy with automatic fallback across major LLM providers
+- **Architecture**: Planner → Domain Agents → Finalizer workflow with 5+ specialized domain agents and 10+ scenario agents
+- **Deep Search**: Async iterative research pipeline with 4 agents (Planner, Evaluator, Summarizer, Synthesizer), Redis pub/sub SSE streaming, convergence detection, user-in-the-loop plan approval, and graceful degradation
+- **Integration**: Slack Bolt SDK and AG-UI protocol for conversational interfaces, FastMCP for external tool integration, SSE streaming with run cancellation
+- **AI/ML**: Multi-model strategy via OpenRouter with automatic fallback across major LLM providers
 - **Observability**: LangSmith tracing, Sentry error tracking, Prometheus metrics, comprehensive usage tracking
-- **Technologies**: Python, PydanticAI, FastAPI, PostgreSQL, MCP protocol, Slack API
+- **Technologies**: Python, PydanticAI, FastAPI, PostgreSQL, Redis, MCP protocol, Slack API
 
 ### RAG Knowledge Base Systems
 Developed multiple RAG implementations for semantic search and knowledge retrieval:
@@ -113,9 +116,9 @@ Developed multiple RAG implementations for semantic search and knowledge retriev
 - **Technologies**: Python, DuckDB, ONNX Runtime, sentence-transformers, FastEmbed, pgvector
 
 ### Apple Search Ads Intelligence Platform (MCP Server)
-Architected FastMCP server with > 30 tools for App Store competitive intelligence:
+Architected FastMCP server with 30+ tools for App Store competitive intelligence:
 - **Features**: Semantic app search with BM25 ranking, competitor discovery, keyword analysis, historical trends, SOV tracking
-- **Databases**: PostgreSQL with pgvector for semantic search, StarRocks OLAP for time-series analytics (April 2024+)
+- **Databases**: PostgreSQL with pgvector for semantic search, StarRocks OLAP for time-series analytics.
 - **Performance**: Parallel processing with asyncio.gather(), file-based caching with TTL, background health checks
 - **Observability**: Prometheus metrics tracking, distributed tracing with Logfire, JWT authentication middleware
 - **Technologies**: Python 3.12+, FastMCP, PostgreSQL, pgvector, StarRocks, AWS Bedrock, Pydantic
@@ -166,7 +169,7 @@ Architected FastMCP server with > 30 tools for App Store competitive intelligenc
 ### Languages & Expertise
 - **Python** (12+ years): FastAPI, Starlette, Django, Flask, async/await patterns
 - **Golang** (6+ years): Microservices, concurrent systems
-- **Protocols**: gRPC, REST, GraphQL, Protocol Buffers, MCP (Model Context Protocol)
+- **Protocols**: gRPC, REST, GraphQL, Protocol Buffers, MCP (Model Context Protocol), AG-UI
 
 ### AI/ML & Data Science
 - **LLM Integration**: PydanticAI, OpenAI GPT, Anthropic Claude, Slack Bolt SDK
